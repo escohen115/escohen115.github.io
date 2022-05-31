@@ -1,7 +1,7 @@
 
 
 function Resume(){
-    return <div className = "card" > Hello from the Resume</div>
+    return <div className = "card" > Resume</div>
 }
 
 export default Resume;

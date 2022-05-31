@@ -9,25 +9,25 @@ import Resume from './components/Resume';
 
 function App() {
   return (
+
+
     <div className="App">
-      <Header/>
-      
-      <div className='mainContent'>
+
+      <div className="mainContent">
         <SidePanel/>
-      <div className = "subsection">
-        <Skills/>
-        <AboutMe/>
-        <Projects/>
-        <Resume/>
-      </div>
+        <div className='subsection'>
+          <AboutMe/>
+          <Skills/> 
+          <Projects/>
+          <Resume/>
+        </div>
         
       </div>
       
-      
         
-    
-      
-    </div>
+     
+        
+  </div>
   );
 }
 

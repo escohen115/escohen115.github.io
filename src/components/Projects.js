@@ -1,7 +1,7 @@
 
 
 function Projects(){
-    return <div className = "card" > Hello from the Projects</div>
+    return <div className = "card" > Projects</div>
 }
 
 export default Projects;

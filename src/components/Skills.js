@@ -1,7 +1,7 @@
 
 
 function Skills(){
-    return <div className = "card" > Hello from the Skills</div>
+    return <div className = "card" >Skills</div>
 }
 
 export default Skills;
