@@ -13,16 +13,25 @@ function App() {
 
     <div className="App">
 
-      <div className="mainContent">
-        <SidePanel/>
-        <div className='subsection'>
-          <AboutMe/>
-          <Skills/> 
-          <Projects/>
-          <Resume/>
+      
+        {/* <SidePanel/>
+        <AboutMe/>
+        <Skills/> 
+        <Projects/>
+        <Resume/> */}
+
+      <div className="grid">
+         <div className="left">
+          <SidePanel/>
         </div>
+         <div className="right">
+          hello
+        </div>
+      </div>  
+      
+     
         
-      </div>
+      
       
         
      
