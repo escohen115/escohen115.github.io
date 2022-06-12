@@ -8,7 +8,7 @@ import phone from "../images/viber.png"
 function AboutMe(){
     return (
     <div className = "card" style={{textAlign:"left"}} >
-        <div className = "topPanel" > 
+        <div className = "topPanel"> 
         <img src={headshot} alt="headshot" className ="profilePic"/>
         <div className = "links">
             <a target="_blank" href = "https://github.com/escohen115" rel="noreferrer" > <img className = "imagelink" src={github} alt="github" /></a>
