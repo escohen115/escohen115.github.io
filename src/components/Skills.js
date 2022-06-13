@@ -1,7 +1,8 @@
 
 
 function Skills(){
-    return <div className = "card" >
+    return( 
+    <div className = "card" >
         <h2 style={{textAlign:"left"}}>Technical Skills</h2>
         <ul class="columns">
             <li>JavaScript</li>
@@ -20,6 +21,6 @@ function Skills(){
             <li>Adobe Analytics</li>
         </ul>
     </div>
-}
+    )}
 
 export default Skills;

@@ -7,24 +7,41 @@ import phone from "../images/viber.png"
 
 function AboutMe(){
     return (
-    <div className = "card" style={{textAlign:"left"}} >
-        <div className = "topPanel"> 
-        <img src={headshot} alt="headshot" className ="profilePic"/>
-        <div className = "links">
-            <a target="_blank" href = "https://github.com/escohen115" rel="noreferrer" > <img className = "imagelink" src={github} alt="github" /></a>
-            <a className = "link" target="_blank" href = "https://www.linkedin.com/in/simon-cohen-575413102/" rel="noreferrer" > <img className = "imagelink"src={linkedin} alt="linkedin" /></a>
-            <a href = "mailto: escohen115@gmail.com"> <img className="imagelink" alt="email" src={email} /> </a>
-            <a href = "tel:404-655-8982"> <img className="imagelink" alt="email" src={phone} /> </a>
-        </div>
-    
-    </div>
-        <h2>Hello and welcome!</h2>
-        {/* <br></br> */}
-        My name is Simon Cohen, and I am an Atlanta-based software engineer. 
+        
+    <div className="right">
+        <h1>Hello and welcome!</h1>
+        <h3>Thanks for stopping by :)</h3>
+        <div className="aboutP" style={{textAlign:"left"}}>
+        I'm Simon, a full stack software engineer. 
         <br></br>
-        Aside from  working on projects and studying data structures and algorithms, I  also enjoy reading, rollerblading, and <a href="https://www.youtube.com/watch?v=bjDm_tb6Euw&ab_channel=CommodoreKinematics"> building custom Lego automatons.</a>
+        Avid problem-solver, tinkerer, and insatiably curious about everything.
+        <br></br>
+        I keep myself busy working on new projects and studying data structures and algorithms.
+        <br></br>
+        I also enjoy meditation, biking, and <a href="https://www.youtube.com/watch?v=bjDm_tb6Euw&ab_channel=CommodoreKinematics"> building custom Lego automatons.</a>
+        </div>
+        
+        <h2>Technical Skills</h2>
 
-    </div>)
+        <div class="columns" >
+            <div className="skill" >JavaScript</div >
+            <div className="skill" >Python</div >
+            <div className="skill" >Java</div >
+            <div className="skill" >React</div >
+            <div className="skill" >Git</div >
+            <div className="skill" >SQL</div >
+            <div className="skill" >Ruby</div >
+            <div className="skill" >Ruby on Rails</div >
+            <div className="skill" >HTML</div >
+            <div className="skill" >CSS</div >
+            <div className="skill" >Google Tag Manager</div >
+            <div className="skill" >Google Analytics</div >
+            <div className="skill" >Adobe Launch</div >
+            <div className="skill" >Adobe Analytics</div >
+        </div>
+        
+    </div>
+    )
 }
 
 export default AboutMe;

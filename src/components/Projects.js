@@ -9,7 +9,7 @@ function Projects(){
         return <Project project={item}/>
     })
 
-    return (<div className = "card" >
+    return (<div className = "bottomLeft" >
         <h2 style={{textAlign:"left"}}>Projects</h2>
         {projects}
     </div>)

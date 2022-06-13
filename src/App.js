@@ -20,14 +20,14 @@ function App() {
         <Skills/> 
         <Projects/>
         <Resume/> */}
-
+      
       <div className="grid">
-          <SidePanel/>
-          {/* <SocialLinks/> */}
-         <div className="right">
-          hello
-        </div>
-      </div>  
+        <SidePanel/>
+        <AboutMe/>
+        <Projects/>
+      
+      </div>
+      
       
      
         

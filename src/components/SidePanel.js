@@ -13,9 +13,9 @@ function SidePanel(){
 
         <div className = "menu">
             
-                <button className="button"><a>About Me</a></button>
-                <button className="button"><a>My Projects</a></button>
-                <button className="button"><a>Resume</a></button>
+                <button className="button">About Me</button>
+                <button className="button">My Projects</button>
+                <button className="button">Resume</button>
             
         </div>    
 
