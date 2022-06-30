@@ -8,6 +8,7 @@ import Projects from './components/Projects';
 import Resume from './components/Resume';
 import SocialLinks from './components/SocialLinks';
 
+
 function App() {
   return (
 
@@ -25,6 +26,7 @@ function App() {
         <SidePanel/>
         <AboutMe/>
         <Projects/>
+        <Resume/>
       
       </div>
       

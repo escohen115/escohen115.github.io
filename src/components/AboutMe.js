@@ -9,9 +9,12 @@ function AboutMe(){
     return (
         
     <div className="right">
-        <h1>Hello and welcome!</h1>
-        <h3>Thanks for stopping by :)</h3>
+        <h2 style={{textAlign:"left"}}>About me</h2>
+        {/* <h3 style={{textAlign:"left"}}></h3> */}
         <div className="aboutP" style={{textAlign:"left"}}>
+        <b>Hello and welcome! Thanks for stopping by :)</b>
+        <br></br>
+        <br></br>
         I'm Simon, a full stack software engineer. 
         <br></br>
         Avid problem-solver, tinkerer, and insatiably curious about everything.

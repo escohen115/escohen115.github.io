@@ -6,18 +6,24 @@ import phone from "../images/viber.png"
 
 function SidePanel(){
     return (
+
+        
     <div className="left"> 
+
+
         <div className="picDiv">
             <img src={headshot} alt="headshot" className ="profilePic"/>
         </div>
+        <h2 style={{color:"black",textAlign:"center"}}>Simon Cohen</h2>
 
-        <div className = "menu">
+        {/* <div className = "menu">
             
+                <button className="button">Home</button>
                 <button className="button">About Me</button>
                 <button className="button">My Projects</button>
                 <button className="button">Resume</button>
             
-        </div>    
+        </div>     */}
 
         <div className="linkDiv">
             <div className = "links">
