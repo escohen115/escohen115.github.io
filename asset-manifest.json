@@ -1,16 +1,18 @@
 {
   "files": {
     "main.css": "/static/css/main.2e556a5a.css",
-    "main.js": "/static/js/main.754e1d5c.js",
+    "main.js": "/static/js/main.3cd28f7b.js",
     "static/js/787.71e672d5.chunk.js": "/static/js/787.71e672d5.chunk.js",
+    "pdf.worker.js": "/e7e915313973ba1d49f9bb2a1998626e.js",
     "static/media/1641490968393.jpeg": "/static/media/1641490968393.8a2b588b371a47e7c7b7.jpeg",
+    "static/media/Simon Cohen Resume.pdf": "/static/media/Simon Cohen Resume.141b75cf1793470df952.pdf",
     "index.html": "/index.html",
     "main.2e556a5a.css.map": "/static/css/main.2e556a5a.css.map",
-    "main.754e1d5c.js.map": "/static/js/main.754e1d5c.js.map",
+    "main.3cd28f7b.js.map": "/static/js/main.3cd28f7b.js.map",
     "787.71e672d5.chunk.js.map": "/static/js/787.71e672d5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2e556a5a.css",
-    "static/js/main.754e1d5c.js"
+    "static/js/main.3cd28f7b.js"
   ]
 }
