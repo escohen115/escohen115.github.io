@@ -11,33 +11,13 @@ import SocialLinks from './components/SocialLinks';
 
 function App() {
   return (
-
-
     <div className="App">
-
-      
-        {/* <SidePanel/>
-        <AboutMe/>
-        <Skills/> 
-        <Projects/>
-        <Resume/> */}
-      
       <div className="grid">
         <SidePanel/>
         <AboutMe/>
         <Projects/>
         <Resume/>
-      
-      </div>
-      
-      
-     
-        
-      
-      
-        
-     
-        
+      </div>      
   </div>
   );
 }
